@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Super</title>
+	<base href="/">
+</head>
+<body>
+	
+
+
+	<form method="POST">
+		<div id="payment-form"></div>
+		<input type="submit" value="Subscribe">
+	</form>
+
+	<script type="application/json" id="initial-data">
+		<%- initialData %>
+	</script>
+
+	<script src="https://js.braintreegateway.com/js/braintree-2.24.1.min.js"></script>
+
+	<script src="js/bundle.js"></script>
+</body>
+</html>
