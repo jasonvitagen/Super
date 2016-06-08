@@ -73,6 +73,12 @@
   text-align: center;
 }
 
+/* Subscription
+ –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ #mobile {
+  text-align: center;
+ }
+
 /* Bigger than 550 */
 @media (min-width: 550px) {
   .section {
